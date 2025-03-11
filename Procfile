@@ -1,2 +1,4 @@
-worker: python3 bot.py
-web: python3 bot.py
+   git add requirements.txt
+   git commit -m "Update motor and pymongo to compatible versions"
+   git push heroku main
+   
