@@ -39,7 +39,7 @@ class Config(object):
     START_PIC   = os.environ.get("START_PIC", "")
     ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '5239080571').split()]
     FORCE_SUB   = os.environ.get("FORCE_SUB", "-1002437422896") 
-    LOG_CHANNEL = int(os.environ.get("-1002474879896", "0"))  # Default to 0 if not found
+    LOG_CHANNEL = int(os.environ.get("-1002474879896"))  # Default to 0 if not found
     MAX_CONCURRENT_TRANSMISSIONS = int(os.environ.get("MAX_CONCURRENT_TRANSMISSIONS", "2")) # Set the maximum amount of concurrent transmissions (uploads & downloads).
     
     # wes response configuration     
